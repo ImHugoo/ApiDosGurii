@@ -48,12 +48,12 @@ export default function Dogs(){
                 <h3>dogguinhos</h3>
                 <ul>
                     <li onClick={()=>{buscarTodos(); alteraNome("Todos os dog")}}>Todos os dog</li>
-                    {racas.map(r => {return(<li key={r} onClick={()=> {buscarIMG(r); alteraNome(r)}}>{r}</li>)})}
+                    {racas.map((r, index) => {return(<li key={r} onClick={()=> {buscarIMG(r); alteraNome(r)}}>{r}</li>)})}
                 </ul>
             </div>
             <div>
                 <h2>{nome}</h2>
-                {imagem.map(i => {return(<img src={i}/>)})}
+                {imagem.map((i, index) => {return(<img key={i} src={i}/>)})}
             </div>
         </div>
     </div>
