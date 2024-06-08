@@ -37,10 +37,9 @@ const nextConfig = {
         unoptimized:true,
     },
 };
-```
-
 
 export default nextConfig;
+```
 
 2. Dê o comando: "npx next build" dentro do seu projeto
 
