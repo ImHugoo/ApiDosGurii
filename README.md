@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+---------Tutorial para subir um site utilizando o Vercel
 
-## Getting Started
 
-First, run the development server:
+## 1: Antes de subir o site, tenha em mente que você tera que corrigir todos os erros dentro da sua aplicação, qualquer erro impossibilita o site de ir ao ar.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 2: de um ´git init´ (se nao tiver versionado) dentro da pasta do seu projeto para comecar a utilizar o git (se nao tiver versionado)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 3: Com os erros ja corrigidos(voce pode verificar utilizando o inspecionar do seu navegador) suba seu site para o GitHub ou se você ja tiver, faça um commit para atualizar o codigo.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 4: Verifique se o projeto se encontra dentro do seu GitHub, após isso, entra no site da vercel, na area de "project" e suba seu projeto.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 5: Caso a build dê errado, volte no seu codigo e corrija os erros (boa sorte amigo).
 
-## Learn More
+## 6: Apos ser publicado, o Vercel dara o link para que possa acessa-lo (exemplo: api-dos-gurii-888z.vercel.app)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+----------Como enviar arquivos NextJS para o Github Pages 
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 1: para iniciar, primeiro abre a arquivo ´next.config.mjs´ e coloque ou altera o seguinte comando: 
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    output:"export",
+    images:{
+        unoptimized:true,
+    },
+};
+
+export default nextConfig;
+
+## 2: Dê o comando: "npx next build" dentro do seu projeto
+
+## 3: Copie da pasta 'out' todos os arquivos, crie uma pasta nova e cole. Após isso, crie um repositorio dessa maneira: SeuNome.github.io
+
+## Exemplo: ImHugoo.github.io
+
+
+
+
