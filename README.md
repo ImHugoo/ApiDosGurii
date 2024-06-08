@@ -28,8 +28,8 @@
 1. para iniciar, primeiro abre a arquivo ´next.config.mjs´ e coloque ou altera o seguinte comando: 
 
 
-´´´
 
+```
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output:"export",
@@ -37,8 +37,8 @@ const nextConfig = {
         unoptimized:true,
     },
 };
+```
 
-´´´
 
 export default nextConfig;
 
