@@ -1,4 +1,6 @@
-## Tutorial para subir um site utilizando o Vercel
+## (indicador avaliativo)
+
+## Tutorial para subir um site utilizando o Vercel 
 
 
 1. Antes de subir o site, tenha em mente que você tera que corrigir todos os erros dentro da sua aplicação, qualquer erro impossibilita o site de ir ao ar.
