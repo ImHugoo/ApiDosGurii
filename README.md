@@ -6,7 +6,7 @@
 1. Antes de subir o site, tenha em mente que você tera que corrigir todos os erros dentro da sua aplicação, qualquer erro impossibilita o site de ir ao ar.
 
 
-2. de um ´git init´ (se nao tiver versionado) dentro da pasta do seu projeto para comecar a utilizar o git (se nao tiver versionado)
+2. de um ´git init´ (se nao tiver versionado) dentro da pasta do seu projeto para comecar a utilizar o git.
 
 
 3. Com os erros ja corrigidos(voce pode verificar utilizando o inspecionar do seu navegador) suba seu site para o GitHub ou se você ja tiver, faça um commit para atualizar o codigo.
